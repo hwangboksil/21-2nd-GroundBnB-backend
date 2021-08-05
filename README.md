@@ -33,26 +33,16 @@ https://youtu.be/_gQTFFALqpM
 ### 적용 기술
 
 > - Front-End : React.js, StyledComponent, html, JavaScript, 
-> - Back-End  : Python, Django web framework, Bcrypt, JWT, MySQL, Redis
-> - Common    : AWS(EC2, RDS, S3, Docker), RESTful API
+> - Back-End  : Python, Django web framework, Bcrypt, JWT, MySQL
+> - Common    : AWS(EC2, RDS, S3), RESTful API
 
 ### 협업 Tool
 > trello, slack
 
 ### 구현 기능
-#### 메인페이지
- - 검색(연관 검색어), Calendar
-
-#### 회원가입 / 로그인
- - Kakao Social Login
-
-#### 검색 결과 페이지
- - Google Map Api를 활용한 숙소 리스트
-
 #### 상세 페이지
+ - 상세 페이지 표시
  - 숙소 평점별 표시
- - 예약하기
- - 댓글
 
 ## Reference
 - 이 프로젝트는 [에어비앤비](https://www.airbnb.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.

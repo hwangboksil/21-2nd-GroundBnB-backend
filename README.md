@@ -13,8 +13,8 @@
     - 박현찬
   - 백엔드
     - 유병건
-    - 황복실
     - 한성봉
+    - 황복실
  
 - GitHub
   - [프론트엔드 GitHub URL](https://github.com/wecode-bootcamp-korea/21-2nd-GroundBnB-frontend.git)
@@ -22,7 +22,6 @@
 
 ### 프로젝트 선정이유
 
-- Google Map Api를 활용한 여러 사이트 중, 에어비앤비의 Google Map 기능을 클론해보고 싶었습니다.
 - 일반적인 커머스 사이트와는 다른 다소 복잡해 보이는 모델링과 다양한 기능(예약기능, 댓글기능, 소셜로그인 등등)이 적절하게 조합이 되어져 있었기에 선정하게 되었습니다.
 
 ### 데모 영상
@@ -40,9 +39,9 @@ https://youtu.be/_gQTFFALqpM
 > trello, slack
 
 ### 구현 기능
-#### 상세 페이지
- - 상세 페이지 표시
- - 숙소 평점별 표시
+- AWS의 S3를 활용하여 사진을 불러오고, 숙소 상세 페이지 조회 API 구현
+- 각 숙소 별 리뷰, 편의 시설의 평점을 평균 계산하는 API 구현
+- DB에 액세스횟수를 줄이기 위해 쿼리셋에 select_related() 및 prefetch_related()를 활용하였습니다.
 
 ## Reference
 - 이 프로젝트는 [에어비앤비](https://www.airbnb.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.
